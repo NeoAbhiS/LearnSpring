@@ -9,10 +9,10 @@ public class GameRunner4spring {
 	@Autowired
 	private GameRunnerInterface game;
 		
-//	public GameRunner4spring(GameRunnerInterface game) {
-//		System.out.println("Using Constructor");
-//		this.game=game;
-//	}
+	public GameRunner4spring(GameRunnerInterface game) {
+		System.out.println("Using Constructor");
+		this.game=game;
+	}
 	
 	
 //	public void setGame(GameRunnerInterface game) {
